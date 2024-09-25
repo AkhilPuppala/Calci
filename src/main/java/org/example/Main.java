@@ -27,7 +27,7 @@ public class Main {
     public static long factorial(int x) {
         logger.info("Operation: Factorial - Start");
         if (x < 0) {
-            logger.warn("Operation: Factorial, Invalid input: Factorial of -ve number.");
+            logger.warn("Operation: Factorial, Invalid input: Factorial of negative number.");
             throw new IllegalArgumentException("Factorial of negative number is not defined.");
         }
         long fact = 1;
