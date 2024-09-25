@@ -14,7 +14,7 @@ public class Main {
     public static double squareRoot(double x) {
         logger.info("Operation: Square root - Start");
         if (x < 0) {
-            logger.warn("Operation: Square root, Invalid input: Square root of negative number.");
+            logger.warn("Operation: Square root, Invalid input: Square root of -ve number.");
             throw new IllegalArgumentException("Square root of negative number is not defined.");
         }
         double result = Math.sqrt(x);
